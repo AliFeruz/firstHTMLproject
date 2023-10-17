@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: block;
+  padding: 20px 10px;
+  height: 100px;
+  width: auto;
+  /* margin: 10px; */
+  background-color: black;
+  /* justify-content: center; */
+  border-bottom: 4px solid greenyellow;
+}
+
+.header a {
+    float: right;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid greenyellow;
+  background-color: whitesmoke;
+  color: black;
+}
+
+div {
+ height: auto;
+ width: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+div img {
+    /* padding: 40px; */
+    height: 600px;
+    width: 800px;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+div h1 {
+    height: auto;
+    width: auto;
+    padding: 30px;
+  text-align: center;
+}
+
+div p {
+    height: auto;
+    width: auto;
+    padding: 30px;
+  text-align: center;
+}
+
+.container {
+    height: 600px;
+    width: 800px;
+    /* border: 2px solid greenyellow;
+    border-radius: 30px; */
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+}
+form {
+  height: auto;
+  width: 400px;
+  border-radius: 30px;
+  border: 2px solid greenyellow;
+  padding: 10px;
+  margin: 30px;
+  justify-content: center;
+  background: transparent;
+  box-shadow: 1px 1px 10px #144f5d;
+}
+
+form input {
+  border-radius: 30px;
+  border: 1px solid greenyellow;
+  padding: 10px;
+  text-align: center;
+}
+
+form input::placeholder {
+  font-weight: 50;
+}
+form span {
+  color: #144f5d;
+}
+
+form textarea {
+  float: right;
+  border-radius: 30px;
+  border: 1px solid greenyellow;
+}
+
+form button {
+  border-radius: 30px;
+  border: 1px solid #144f5d;
+  color: #144f5d;
+  padding: 10px;
+}
+.footer_copyright {
+    border-top: 4px solid greenyellow;
+  display: block;
+  width: auto;
+  height: 100px;
+  padding: 30px;
+  color: greenyellow;
+  background-color: black;
+}

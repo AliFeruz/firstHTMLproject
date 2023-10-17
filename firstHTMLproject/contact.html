@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/firstHTMLproject/style.css" />
+    <!-- <script>
+      let fields = {};
+
+      document.addEventListener("DOMContentLoaded", function () {
+        fields.firstName = document.getElementById("firstName");
+        fields.lastName = document.getElementById("lastName");
+        fields.email = document.getElementById("email");
+        fields.address = document.getElementById("address");
+        fields.houseNumber = document.getElementById("houseNumber");
+        fields.country = document.getElementById("country");
+        fields.password = document.getElementById("password");
+        fields.passwordCheck = document.getElementById("passwordCheck");
+        fields.newsletter = document.getElementById("newsletter");
+        fields.question = document.getElementById("question");
+      });
+
+      function isNotEmpty(value) {
+        if (value == null || typeof value == "undefined") return false;
+        return value.length > 0;
+      }
+
+      function isNumber(num) {
+        return num.length > 0 && !isNaN(num);
+      }
+
+      function isEmail(email) {
+        let regex =
+          /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+        return regex.test(String(email).toLowerCase());
+      }
+
+      function isPasswordValid(password) {
+        if (password.length > 5) {
+          return true;
+        }
+        return false;
+      }
+
+      function fieldValidation(field, validationFunction) {
+        if (field == null) return false;
+
+        let isFieldValid = validationFunction(field.value);
+        if (!isFieldValid) {
+          field.className = "placeholderRed";
+        } else {
+          field.className = "";
+        }
+
+        return isFieldValid;
+      }
+
+      function isValid() {
+        var valid = true;
+
+        valid &= fieldValidation(fields.firstName, isNotEmpty);
+        valid &= fieldValidation(fields.lastName, isNotEmpty);
+        valid &= fieldValidation(fields.gender, isNotEmpty);
+        valid &= fieldValidation(fields.address, isNotEmpty);
+        valid &= fieldValidation(fields.country, isNotEmpty);
+        valid &= fieldValidation(fields.email, isEmail);
+        valid &= fieldValidation(fields.houseNumber, isNumber);
+        valid &= fieldValidation(fields.password, isPasswordValid);
+        valid &= fieldValidation(fields.passwordCheck, isPasswordValid);
+        valid &= fieldValidation(fields.question, isNotEmpty);
+        valid &= arePasswordsEqual();
+
+        return valid;
+      }
+
+      function arePasswordsEqual() {
+        if (fields.password.value == fields.passwordCheck.value) {
+          field.password.className = "placeholderRed";
+          field.passwordCheck.className = "placeholderRed";
+          return true;
+        }
+        return false;
+      }
+
+      class User {
+        constructor(firstName, lastName, address, email, newsletter, question) {
+          this.firstName = firstName;
+          this.lastName = lastName;
+          this.address = address;
+          this.country = country;
+          this.email = email;
+          this.newsletter = newsletter;
+          this.question = question;
+        }
+      }
+    </script> -->
+  </head>
+  <body>
+    <div class="header">
+      <a href="/firstHTMLproject/index.html">Home</a>
+    </div>
+
+    <div>
+      <h1>Here is text about us</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
+        quos, alias labore ipsa cumque optio assumenda quasi, rem molestias
+        perspiciatis, doloremque eius magni modi quis suscipit. Aliquid facilis
+        adipisci qui ipsam similique a autem voluptatibus error iure, facere
+        recusandae odit, non cumque aperiam harum atque reiciendis at nostrum
+        assumenda perspiciatis. Veritatis non, qui nobis obcaecati
+        exercitationem vero consectetur eveniet odio minus eius voluptates iure
+        cum, incidunt odit rem. Maiores natus eligendi voluptatum sequi iste
+        accusamus ipsa nulla quas labore quod id ea enim suscipit, tenetur,
+        quibusdam ratione error deserunt qui libero laudantium. Aliquam deserunt
+        accusantium blanditiis consequuntur, voluptatibus eligendi eum id
+        temporibus. Ratione et non a suscipit molestiae reiciendis minima earum
+        dolore enim, unde placeat atque aspernatur eius ipsum pariatur natus
+        porro quas fugit repellat, laborum nostrum itaque? Hic at perferendis a
+        error aperiam quae sunt facilis repudiandae expedita accusamus magni
+        voluptate quod odit labore quasi, fugit neque reiciendis dolorum sit.
+        Possimus quia maiores incidunt nulla enim. Nihil nobis mollitia
+        necessitatibus nemo magnam qui, eum incidunt quo dicta unde animi
+        aperiam officiis, velit maxime nulla obcaecati repellendus voluptatem
+        officia numquam recusandae. Placeat, temporibus? Ab mollitia, earum
+        laboriosam hic tenetur excepturi repellat sint, id at culpa dolore
+        deleniti quasi ducimus ullam. Adipisci, facilis ad officiis quis
+        deleniti voluptatum dolor ab nulla vel ullam, mollitia sapiente fugit,
+        harum at sit exercitationem? Voluptatum illo ex corporis optio
+        architecto beatae. Sit deleniti, reprehenderit, perferendis delectus
+        molestias aperiam nesciunt ratione praesentium quos, magnam officiis?
+        Quod hic deleniti delectus dolore ex veritatis expedita sequi quisquam
+        aliquam quibusdam, impedit alias sit fuga placeat officia totam
+        assumenda ab cupiditate voluptatum consectetur, voluptatibus saepe ipsa
+        inventore? Odio nihil veritatis repellendus hic temporibus id ipsum
+        inventore, eos sapiente nemo fugiat numquam quam consectetur itaque
+        dolor voluptatum impedit culpa deserunt illo molestiae amet. Officia
+        maxime voluptates, odit corporis voluptate rerum veniam.
+      </p>
+    </div>
+    <div class="container">
+      <h1>Contact form</h1>
+      <form onsubmit="return false">
+        <input type="text" placeholder="Enter your first name" id="firstName" />
+        <input type="text" placeholder="Enter your last name" id="lastName" />
+        <br /><br />
+        <input type="email" placeholder="Enter your email" id="email" />
+        <br /><br />
+        <input type="password" placeholder="Enter password" id="password" />
+        <input
+          type="password"
+          placeholder="Enter password (check)"
+          id="passwordCheck"
+        />
+        <br /><br />
+        <input type="checkbox" id="newsletter" />Send me monthly newsletter
+        <br /><br />
+        <br /><br />
+        <span> What is your question? </span>
+        <!-- <br /><br/> -->
+        <textarea id="question" rows="10"></textarea>
+        <br /><br />
+        <br /><br />
+        <button onclick="sendContact();">SEND</button>
+      </form>
+    </div>
+
+    <div class="footer_copyright">
+      <p>&copy; 2023 Code Academy. Berlin. Ali Feruz</p>
+    </div>
+  </body>
+</html>
